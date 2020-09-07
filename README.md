@@ -6,19 +6,19 @@ Certain data engineering steps happened manually and were executed in Excel, in 
 
 An overview of all documents is found below in a <b>chronological order</b>, with a concise explanation on their content and use.
 
-•	Scraping_final.ipynb<br>
+•	<b>Scraping_final.ipynb</b><br>
 This code entails most of the data collection and feature engineering process, from scraping up until the creation of most final features.<br>
-•	Regex_dictionary.txt<br>
+•	<b>Regex_dictionary.txt</b><br>
 The regular expressions used to create the linguistic cues, created as explained in the method section of this paper.<br>
-•	Additional Manipulation.ipynb<br>
+•	<b>Additional Manipulation.ipynb</b><br>
 In this annex, additional manipulations were done to the dataset after the whole collection process was done.<br>
-•	JCPGoogleAndCrossRef.csv<br>
+•	<b>JCPGoogleAndCrossRef.csv</b><br>
 	An overview of all citations for both Google Scholar and CrossRef.<br>
-•	analysis.xlsx<br>
+•	<b>analysis.xlsx</b><br>
 This dataset is the dataset, as created by combining the two notebooks. Further manual manipulation of certain variables still happened afterwards. (e.g. creation of the p-value distribution).<br>
-•	meta_data_analysis.csv<br>
+•	<b>meta_data_analysis.csv</b><br>
 After completing all data manipulation, this dataset was used as the input for the modelling process.<br>
-•	indirect_effects_final.R<br>
+•	<b>indirect_effects_final.R</b><br>
 The final (and cleaned) script which takes "meta_data_analysis.csv" as an input. This script account partially for the EDA, as well as for all of the modelling.<br>
-•	final_data_scaled.csv<br>
+•	<b>final_data_scaled.csv</b><br>
 The final dataset which was used for the modelling itself, a scaled (and filtered) variant of the raw dataset where outliers were removed.<br>
